@@ -13,7 +13,7 @@ setup(
     url='https://github.com/Faylixe/google-drive-download',
     license='MIT License',
     packages=[
-        'google.drive',
+        'gdrive',
     ],
     python_requires='>=3.6, <3.9',
     include_package_data=True,
