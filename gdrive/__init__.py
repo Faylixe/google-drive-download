@@ -34,7 +34,6 @@ class GoogleDriveFile(BaseModel):
             GoogleDrive()
                 .files()
                 .export_media(fileId=self.id, mimeType=mime_type)
-                .execute()
         )
         buffer = BytesIO()
         downloader = MediaIoBaseDownload(buffer, request)
