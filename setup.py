@@ -5,7 +5,7 @@
 from setuptools import setup
 
 setup(
-    name="project_name",
+    name="google-drive-download",
     version="project_version",
     description="Simple utility package for easy Google Drive downloading",
     author="Félix Voituret",
