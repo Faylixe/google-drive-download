@@ -15,7 +15,7 @@ setup(
     packages=[
         "gdrive",
     ],
-    python_requires=">=3.6, <=3.9",
+    python_requires=">=3.6,<3.10",
     include_package_data=True,
     install_requires=[
         "google-api-python-client",
